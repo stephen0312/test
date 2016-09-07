@@ -1,0 +1,22 @@
+{
+  "title": "Test theme",
+  "repository": "https://github.com/stephen0312/test.git",
+  "name": "test",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+
+  "features": [
+  ],
+
+  "static-pages": [],
+
+  "menu-locations": {
+    "header1": {
+      "max-items": 10,
+      "title": "Header",
+    },
+    "footer1": {
+      "title": "Footer"
+    }
+  }
+
+}

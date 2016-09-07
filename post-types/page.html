@@ -1,0 +1,16 @@
+{% extends "layout/main.html" %}
+
+{% block header %}
+{{title}}
+{% endblock %}
+
+{% block left %}
+This is the left side!
+
+  <div data-editable-builder="unique-id-1">
+    <!-- Content goes here -->
+    {{content|safe}}
+  </div>
+
+  {% include "partial/post.html" %}
+{% endblock %}
